@@ -1,3 +1,8 @@
 def square_array(array)
-  array.map(num num**2)
+  counter = 0
+  while array[counter]
+    array[counter] *= array[counter]
+    counter++
+  end
+  array
 end
